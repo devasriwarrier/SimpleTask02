@@ -1,5 +1,6 @@
 package com.example.simpletask02;
-
+//hello testing git stuff here!
+//nore stuff
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
