@@ -4,13 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00B0FF"
+    android:background="#022925"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".NotesActivity">
+
+    <ImageView
+        android:id="@+id/mImageViewBack_Home"
+        android:layout_width="53dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="358dp"
+        android:layout_marginRight="358dp"
+        android:layout_marginBottom="42dp"
+        android:contentDescription="@string/backbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back_button" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:id="@+id/notestitle"
         android:text="NOTES"
         android:textSize="20dp"
@@ -29,7 +43,7 @@
         android:layout_height="wrap_content"
         android:text="Add New Note"
         android:id="@+id/addNewNote_btn"
-        android:textColor="#00B0FF"
+        android:textColor="#022925"
         android:backgroundTint="@color/white"
         android:layout_alignParentBottom="true"/>
 

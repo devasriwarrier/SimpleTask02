@@ -8,25 +8,35 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import io.realm.Realm;
 import io.realm.RealmChangeListener;
 import io.realm.RealmResults;
-import io.realm.Sort;
 
-public class MainActivity extends AppCompatActivity {
+public class NotesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_notes);
 
         Button addNewNote_btn = findViewById(R.id.addNewNote_btn);
 
+        ImageView mImageViewBack_Home = (ImageView) findViewById(R.id.mImageViewBack_Home);
+
+
+        mImageViewBack_Home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent NoteViewToHome = new Intent( NotesActivity.this, HomeActivity.class);
+                startActivity(NoteViewToHome);
+            }
+        });
         addNewNote_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, AddNoteActivity.class));
+                startActivity(new Intent(NotesActivity.this, AddNoteActivity.class));
             }
         });
 
