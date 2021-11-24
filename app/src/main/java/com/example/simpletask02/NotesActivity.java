@@ -19,14 +19,14 @@ public class NotesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notes);
+        setContentView(R.layout.activity_notes); //xml file in res > layout > activity_notes file
 
         Button addNewNote_btn = findViewById(R.id.addNewNote_btn);
 
         ImageView mImageViewBack_Home = (ImageView) findViewById(R.id.mImageViewBack_Home);
 
 
-        mImageViewBack_Home.setOnClickListener(new View.OnClickListener() {
+        mImageViewBack_Home.setOnClickListener(new View.OnClickListener() { //back button to take us back to home activity page
             @Override
             public void onClick(View v) {
                 Intent NoteViewToHome = new Intent( NotesActivity.this, HomeActivity.class);

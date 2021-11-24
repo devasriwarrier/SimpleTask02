@@ -14,7 +14,7 @@ public class AddNoteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_note);
+        setContentView(R.layout.activity_add_note); //xml file in res > layout > activity_add_note file
 
         EditText titleInput = findViewById(R.id.titleinput);
         EditText descriptionInput = findViewById(R.id.descriptioninput);
@@ -24,7 +24,7 @@ public class AddNoteActivity extends AppCompatActivity {
         Realm.init(getApplicationContext());
         Realm realm = Realm.getDefaultInstance();
 
-        saveBtn.setOnClickListener(new View.OnClickListener() {
+        saveBtn.setOnClickListener(new View.OnClickListener() { //onclick button to save note
             @Override
             public void onClick(View v) {
                 String title = titleInput.getText().toString();
