@@ -18,7 +18,7 @@ public class HomeActivity extends AppCompatActivity {
         ImageButton mButtonAddToDo = (ImageButton) findViewById(R.id.imageButton_AddToDo);
 
         mButtonAddNote.setOnClickListener(view -> {
-            Intent addNoteIntent = new Intent(HomeActivity.this, NoteMainActivity.class);
+            Intent addNoteIntent = new Intent(HomeActivity.this, NotesActivity.class);
             startActivity(addNoteIntent);
         });
     }

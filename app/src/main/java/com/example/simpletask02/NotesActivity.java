@@ -26,13 +26,13 @@ public class NotesActivity extends AppCompatActivity {
         ImageView mImageViewBack_Home = (ImageView) findViewById(R.id.mImageViewBack_Home);
 
 
-//        mImageViewBack_Home.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent NoteViewToHome = new Intent( NotesActivity.this, HomeActivity.class);
-//                startActivity(NoteViewToHome);
-//            }
-//        });
+        mImageViewBack_Home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent NoteViewToHome = new Intent( NotesActivity.this, HomeActivity.class);
+                startActivity(NoteViewToHome);
+            }
+        });
         addNewNote_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
