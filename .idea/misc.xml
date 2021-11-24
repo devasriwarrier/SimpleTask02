@@ -5,8 +5,11 @@
       <map>
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.17864583333333334" />
         <entry key="app/src/main/res/layout/activity_add_note.xml" value="0.19362637267561492" />
+        <entry key="app/src/main/res/layout/activity_home2.xml" value="0.159375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.16666666666666666" />
         <entry key="app/src/main/res/layout/item_view.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>

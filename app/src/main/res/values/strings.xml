@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SimpleTask02</string>
+    <string name="AddNote_TextHome">Add Note</string>
+    <string name="AddReminder_TextHome">Add Reminder</string>
+    <string name="addAlarm_TextHome">Set Alarm</string>
+    <string name="AddToDo_TextHome">To Do List</string>
 </resources>
