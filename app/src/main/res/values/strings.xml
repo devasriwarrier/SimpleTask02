@@ -4,4 +4,5 @@
     <string name="AddReminder_TextHome">Add Reminder</string>
     <string name="addAlarm_TextHome">Set Alarm</string>
     <string name="AddToDo_TextHome">To Do List</string>
+    <string name="backbutton" />
 </resources>
