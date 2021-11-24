@@ -2,7 +2,7 @@ package com.example.simpletask02;
 
 import io.realm.RealmObject;
 
-public class Note extends RealmObject {
+public class Note extends RealmObject { //getters and setters.
     String title;
     String description;
     long createdTime;
