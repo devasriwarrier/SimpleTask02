@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00B0FF"
+    android:background="#022925"
     android:padding="10dp"
     tools:context=".NotesActivity">
 
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:text="Add New Note"
         android:id="@+id/addNewNote_btn"
-        android:textColor="#00B0FF"
+        android:textColor="#022925"
         android:backgroundTint="@color/white"
         android:layout_alignParentBottom="true"/>
 

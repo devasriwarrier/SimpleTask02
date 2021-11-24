@@ -9,9 +9,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleTask02">
         <activity
-            android:name=".HomeTActivity"
-            android:exported="false" />
-        <activity
             android:name=".HomeActivity"
             android:exported="true" />
         <activity
