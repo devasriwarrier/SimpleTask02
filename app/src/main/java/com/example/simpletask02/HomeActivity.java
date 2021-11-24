@@ -11,7 +11,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home2);
+        setContentView(R.layout.activity_home);
         ImageButton mButtonAddNote = (ImageButton) findViewById(R.id.imageButton_AddNote);
         ImageButton mButtonReminder = (ImageButton) findViewById(R.id.imageButton_AddReminder);
         ImageButton mButtonAddAlarm = (ImageButton) findViewById(R.id.imageButton_SetAlarm);
